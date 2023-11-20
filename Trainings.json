@@ -1,0 +1,94 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "trainings",
+    "dateExported": "2023-11-20T13:38:18.988Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "88d04d41-7429-4aeb-a4e9-4f807e42af6b",
+            "colId": "64181ace-5048-48b7-bbc3-1a70c1ab69b7",
+            "containerId": "",
+            "name": "get all trainings",
+            "url": "localhost:3000/api/trainings",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-20T13:08:33.149Z",
+            "modified": "2023-11-20T13:08:59.432Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3ffb3ca0-fe8d-4cc4-aed8-2ff2032b1096",
+            "colId": "64181ace-5048-48b7-bbc3-1a70c1ab69b7",
+            "containerId": "",
+            "name": "get kepzes id alapján",
+            "url": "localhost:3000/api/trainings/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-11-20T13:11:55.418Z",
+            "modified": "2023-11-20T13:12:39.573Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6bc4d5a8-27dd-4e8e-b549-f700ccc4b91b",
+            "colId": "64181ace-5048-48b7-bbc3-1a70c1ab69b7",
+            "containerId": "",
+            "name": "post új képzés felvitele",
+            "url": "localhost:3000/api/trainings",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-11-20T13:13:19.096Z",
+            "modified": "2023-11-20T13:14:14.768Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 3\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eff8055b-1bf4-4b50-a8ba-b016f7ef1f05",
+            "colId": "64181ace-5048-48b7-bbc3-1a70c1ab69b7",
+            "containerId": "",
+            "name": "put képzés frissítése",
+            "url": "localhost:3000/api/trainings/5",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-11-20T13:14:21.088Z",
+            "modified": "2023-11-20T13:32:21.982Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 3\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "37085873-00af-4b25-93bf-68bd1856b2b9",
+            "colId": "64181ace-5048-48b7-bbc3-1a70c1ab69b7",
+            "containerId": "",
+            "name": "delete képzés törlése",
+            "url": "localhost:3000/api/trainings/5",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-11-20T13:15:05.952Z",
+            "modified": "2023-11-20T13:32:25.738Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 3\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
