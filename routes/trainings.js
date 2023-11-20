@@ -8,7 +8,7 @@ router.get("/:id", (req, res) => {
   res.status(200).json({ success: true, msg: `A ${req.params.id} id-val rendelkező képzés` });
 });
 router.post("/", (req, res) => {
-  res.status(200).json({ success: true, msg: "Új képzés létrehozása" });
+  res.status(201).json({ success: true, msg: "Új képzés létrehozása" });
 });
 router.put("/:id", (req, res) => {
   res
@@ -17,7 +17,7 @@ router.put("/:id", (req, res) => {
 });
 router.delete("/:id", (req, res) => {
   res
-    .status(200)
+    .status(204)
     .json({ success: true, msg: `A ${req.params.id} id-vel rendelkező képzés törlése` });
 });
 
